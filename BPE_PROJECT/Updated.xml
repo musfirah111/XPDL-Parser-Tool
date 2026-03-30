@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mxfile agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DPr8wO6u96-40NGShgAr" host="app.diagrams.net" modified="2024-05-05T18:26:03.718Z" type="google" version="24.3.1">
+  <diagram id="O8xNK0IjzHHMoWON0nB_" name="Page-1">
+    <mxGraphModel arrows="1" connect="1" dx="2708" dy="0" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageHeight="1100" pageScale="1" pageWidth="850" shadow="0" tooltips="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry as="geometry" height="50" width="50" x="50" y="1354"/>
+        </mxCell>
+        <mxCell duration="15" id="3" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;color: rgb(84, 84, 84); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;Standardized Milk is cleaned of dirt particles, SNF, and cream.&lt;/span&gt;" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="220" y="1329"/>
+        </mxCell>
+        <mxCell edge="1" id="4" parent="1" source="3" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1.002;exitY=0.559;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="5" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="360" y="1378.5"/>
+            <mxPoint as="targetPoint" x="420" y="1379"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell duration="15" id="5" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;color: rgb(84, 84, 84); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;Milk is processed in the creamer at 60°C and 60,000 RPM.&lt;/span&gt;" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="436" y="1334"/>
+        </mxCell>
+        <mxCell edge="1" id="6" parent="1" source="5" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="7" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="540" y="1378.5"/>
+            <mxPoint as="targetPoint" x="600" y="1379"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" isTraversed="false" parent="1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry as="geometry" height="50" width="50" x="611" y="1349"/>
+        </mxCell>
+        <mxCell edge="1" id="8" parent="1" probability="0.7266731779536981" source="7" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="12" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="635" y="1355"/>
+            <mxPoint as="targetPoint" x="710" y="1315"/>
+            <Array as="points">
+              <mxPoint x="635" y="1331"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell duration="15" id="9" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;color: rgb(84, 84, 84); font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;Cream is delivered to the butter department.&lt;/span&gt;" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="730" y="1450"/>
+        </mxCell>
+        <mxCell edge="1" id="10" parent="1" probability="0.2733268220463019" source="7" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="9" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="630" y="1430"/>
+            <mxPoint as="targetPoint" x="700" y="1430"/>
+            <Array as="points">
+              <mxPoint x="635" y="1420"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="11" parent="1" source="9" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="16" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="829" y="1420"/>
+            <mxPoint as="targetPoint" x="1020" y="1480"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell duration="15" id="12" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="TASK 1" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="730" y="1230"/>
+        </mxCell>
+        <mxCell edge="1" id="13" parent="1" source="12" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="14" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="830" y="1310"/>
+            <mxPoint as="targetPoint" x="900" y="1310"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell duration="15" id="14" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="TASK 2" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="910" y="1230"/>
+        </mxCell>
+        <mxCell id="15" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry as="geometry" height="50" width="50" x="1960" y="1625"/>
+        </mxCell>
+        <mxCell duration="15" id="16" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="TASK 3" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="950" y="1450"/>
+        </mxCell>
+        <mxCell edge="1" id="17" parent="1" source="16" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="21" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1070" y="1479.5"/>
+            <mxPoint as="targetPoint" x="1285" y="1420"/>
+            <Array as="points">
+              <mxPoint x="1320" y="1730"/>
+              <mxPoint x="1180" y="1650"/>
+              <mxPoint x="1285" y="1500"/>
+              <mxPoint x="1200" y="1450"/>
+              <mxPoint x="1200" y="1450"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="18" parent="1" source="2" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=-0.008;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" target="3" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="120" y="1341"/>
+            <mxPoint as="targetPoint" x="180" y="1440"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell duration="15" id="19" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="End Task" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="1730" y="1600"/>
+        </mxCell>
+        <mxCell edge="1" id="20" parent="1" source="19" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="15" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1480" y="1383"/>
+            <mxPoint as="targetPoint" x="1580" y="1383"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" isTraversed="false" parent="1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" value="" vertex="1">
+          <mxGeometry as="geometry" height="50" width="50" x="1440" y="1600"/>
+        </mxCell>
+        <mxCell edge="1" id="22" parent="1" source="21" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="19" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1300" y="1470"/>
+            <mxPoint as="targetPoint" x="1400" y="1470"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" isTraversed="false" parent="1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" value="" vertex="1">
+          <mxGeometry as="geometry" height="50" width="50" x="1140" y="1235"/>
+        </mxCell>
+        <mxCell edge="1" id="24" parent="1" source="14" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="23" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1070" y="1270"/>
+            <mxPoint as="targetPoint" x="1190" y="1269.5"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell duration="15" id="25" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="TASK 4" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="1240" y="1120"/>
+        </mxCell>
+        <mxCell duration="15" id="26" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="TASK 5" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="1240" y="1329"/>
+        </mxCell>
+        <mxCell duration="15" id="27" isTraversed="false" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="TASK 6" vertex="1">
+          <mxGeometry as="geometry" height="80" width="120" x="1470" y="1295"/>
+        </mxCell>
+        <mxCell edge="1" id="28" parent="1" probability="0.5947065174226325" source="23" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="25" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1050" y="1150"/>
+            <mxPoint as="targetPoint" x="1210" y="1150"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="29" parent="1" probability="0.4052934825773675" source="23" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="26" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1020" y="1330"/>
+            <mxPoint as="targetPoint" x="1180" y="1330"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="30" parent="1" source="26" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="27" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1370" y="1310"/>
+            <mxPoint as="targetPoint" x="1460" y="1310"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" isTraversed="false" parent="1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" value="" vertex="1">
+          <mxGeometry as="geometry" height="50" width="50" x="1640" y="1170"/>
+        </mxCell>
+        <mxCell edge="1" id="32" parent="1" source="25" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="31" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1390" y="1160"/>
+            <mxPoint as="targetPoint" x="1550" y="1160"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="33" parent="1" source="27" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.984;exitY=0.656;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="31" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1600" y="1320"/>
+            <mxPoint as="targetPoint" x="1760" y="1320"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="34" parent="1" source="31" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="21" value="">
+          <mxGeometry as="geometry" relative="1" width="160">
+            <mxPoint as="sourcePoint" x="1720" y="1210"/>
+            <mxPoint as="targetPoint" x="1880" y="1210"/>
+            <Array as="points">
+              <mxPoint x="1700" y="1470"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

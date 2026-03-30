@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BPE_PROJECT/src"/>
+	<classpathentry kind="src" path="BPE XML Parser/src"/>
+	<classpathentry kind="output" path="BPE XML Parser/bin"/>
+</classpath>

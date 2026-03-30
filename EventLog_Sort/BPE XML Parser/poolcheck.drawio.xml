@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-05T16:00:31.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="9QC7S8lQ8_DPbwk35b3Y" type="device">
+  <diagram name="Page-1" id="jF7au9N1279QCiREurju">
+    <mxGraphModel dx="1878" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;span style=&quot;font-weight: 400; text-wrap: wrap;&quot;&gt;Manufacturing Department&lt;/span&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=40;horizontalStack=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1260" width="500" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Quality Testing Department&lt;/span&gt;" style="swimlane;startSize=20;horizontal=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="2">
+          <mxGeometry x="40" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Storage Department&lt;/span&gt;" style="swimlane;startSize=20;horizontal=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="2">
+          <mxGeometry x="40" y="120" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Standardization Department&lt;/span&gt;" style="swimlane;startSize=20;horizontal=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="2">
+          <mxGeometry x="40" y="240" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;De-creaming Department&lt;/span&gt;" style="swimlane;startSize=20;horizontal=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="2">
+          <mxGeometry x="40" y="360" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Pasteurization Department&lt;/span&gt;" style="swimlane;startSize=20;horizontal=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="2">
+          <mxGeometry x="40" y="480" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Packaging Department&lt;/span&gt;" style="swimlane;startSize=20;horizontal=0;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="2">
+          <mxGeometry x="40" y="600" width="460" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

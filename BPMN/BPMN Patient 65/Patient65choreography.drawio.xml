@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-05T18:01:52.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="Zvq7UjzacceTpZ6VBjIT" type="google">
+  <diagram name="Page-1" id="QppObE8-0jLMK_JCtbAo">
+    <mxGraphModel dx="2345" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="610" width="1760" height="543.125" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="2">
+          <mxGeometry y="250" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="group" connectable="0" vertex="1" parent="2">
+          <mxGeometry x="120" y="140" width="140" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="group" vertex="1" connectable="0" parent="4">
+          <mxGeometry y="73.875" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Pateint goes to Clinic for the First Consultation" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="5">
+          <mxGeometry width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Dr Bob" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+          <mxGeometry y="98.5" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+          <mxGeometry width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="2">
+          <mxGeometry x="340" y="250" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="2">
+          <mxGeometry x="720" y="255" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Patient again visits clinic for Second Consult" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="2">
+          <mxGeometry x="930" y="218.44000000000005" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Dr Bob" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="930" y="316.94000000000005" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="930" y="218.44000000000005" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Patient visiits pharmacy for buying Medicine" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="2">
+          <mxGeometry x="1260" y="218.44000000000005" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Pharmacy" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="1260" y="316.94000000000005" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="1260" y="218.44000000000005" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Patient visits clinic for Final Consultation" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="2">
+          <mxGeometry x="1620" y="218.44000000000005" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Dr Ben" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="1620" y="316.94000000000005" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="1620" y="218.44000000000005" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="group" connectable="0" vertex="1" parent="2">
+          <mxGeometry x="480" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Patient goes to lab for Blood Test" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="20">
+          <mxGeometry width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Laboratory&amp;nbsp;" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+          <mxGeometry y="98.5" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+          <mxGeometry width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="group" connectable="0" vertex="1" parent="2">
+          <mxGeometry x="480" y="420" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Pateint goes to examination room for Physical Test" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="24">
+          <mxGeometry width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="Nurse Jesse" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+          <mxGeometry y="98.5" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+          <mxGeometry width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="" style="group" connectable="0" vertex="1" parent="2">
+          <mxGeometry x="500" y="230" width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Patient goes to radiology department for X-Ray" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;" vertex="1" parent="28">
+          <mxGeometry width="140" height="123.125" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Team 1" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;isLoopSub=0;topLeftStyle=square;topRightStyle=square;fillColor=#C0C0C0;whiteSpace=wrap;html=1;" vertex="1" parent="28">
+          <mxGeometry y="98.5" width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Patient 65" style="shape=mxgraph.bpmn.task;part=1;taskMarker=abstract;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;whiteSpace=wrap;html=1;" vertex="1" parent="28">
+          <mxGeometry width="140" height="24.625" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2" source="3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="430" as="sourcePoint" />
+            <mxPoint x="120" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="2" source="6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="450" as="sourcePoint" />
+            <mxPoint x="340" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.028;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" source="9" target="29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="540" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.844;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.575;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" source="22" target="31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="200" as="sourcePoint" />
+            <mxPoint x="660" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="581" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="29" target="25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="sourcePoint" />
+            <mxPoint x="690" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" source="29" target="10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="180" as="sourcePoint" />
+            <mxPoint x="920" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" source="21" target="10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="120" as="sourcePoint" />
+            <mxPoint x="920" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="745" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="10" target="11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="450" as="sourcePoint" />
+            <mxPoint x="910" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="11" target="14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="920" y="400" as="sourcePoint" />
+            <mxPoint x="1080" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="14" target="17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="850" y="420" as="sourcePoint" />
+            <mxPoint x="1010" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
